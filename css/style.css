@@ -1,0 +1,58 @@
+body {
+  background-color: rgb(0, 0, 0);
+}
+.body-about {
+  background-image: url(/image/putih1.jpg);
+}
+
+.navbar li a:hover {
+  text-decoration-line: underline;
+  text-decoration-color: rgb(0, 0, 0);
+  transition-duration: 2s;
+}
+
+.jumbotron {
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+.jumbotron-banner {
+  padding: 10rem 1rem;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+.jumbotron-banner h1 {
+  font-weight: bold;
+  font-family: Courier;
+  font-style: italic;
+  text-align: center;
+  font-size: 50px;
+  line-height: 50px;
+}
+
+.jumbotron-banner p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.main-color {
+  background-color: rgb(255, 140, 46) !important;
+}
+
+.hovered-card {
+  transition: 0.3s;
+}
+
+.hovered-card:hover {
+  transform: scale(1.1);
+}
+
+.card {
+  background-color: black;
+}
+.logo img {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
