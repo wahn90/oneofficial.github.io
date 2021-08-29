@@ -4,16 +4,18 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>One Official Detail Product 1</title>
+    <title>Document</title>
     <link rel="icon" href="icon/icon2.png" />
     <link rel="stylesheet" href="bootstrap-5.1.0-dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="/dist/css/lightbox.min.css" />
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.theme.default.css" />
   </head>
   <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-dark shadow main-color fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow main-color fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand ms-3" href="#"><img src="image/one.png" alt="" width="30" class="d-inline-block align-text-center" /></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,43 +38,24 @@
     </nav>
     <!-- akhir navbar -->
 
-    <!-- product -->
-    <div class="container-fluid py-5">
-      <div class="container">
-        <div class="row justify-content-center mb-3">
-          <!-- image -->
-          <div class="col-lg-8 mt-5">
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-              <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-              </div>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="image/product/1.jpg" class="d-block w-100" alt="..." />
-                </div>
-                <div class="carousel-item">
-                  <img src="image/product/2.jpg" class="d-block w-100" alt="..." />
-                </div>
-                <div class="carousel-item">
-                  <img src="image/product/3.jpg" class="d-block w-100" alt="..." />
-                </div>
-              </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
-            </div>
-          </div>
+    <div class="container-fluid py-5 mt-5">
+      <div class="owl-carousel preview owl-theme">
+        <div class="card text-center" style="border-style: none">
+          <a href="/image/product/Gambar1/Prev01.jpg" data-lightbox="roadtrip" data-title="Gambar 1"> <img src="image/product/Gambar1/Prev01.jpg" class="card-img-top mb-1" /></a>
         </div>
-        <!-- detail -->
-        <div class="row justify-content-center">
-          <div class="col-lg-6 text-white">
+        <div class="card text-center" style="border-style: none">
+          <a href="/image/product/Gambar1/Prev02.jpg" data-lightbox="roadtrip" data-title="Gambar 2"> <img src="image/product/Gambar1/Prev02.jpg" class="card-img-top mb-1" /></a>
+        </div>
+        <div class="card text-center" style="border-style: none">
+          <a href="/image/product/Gambar1/Prev03.jpg" data-lightbox="roadtrip" data-title="Gambar 3"> <img src="image/product/Gambar1/Prev03.jpg" class="card-img-top mb-1" /></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid py-3">
+      <div class="container">
+        <div class="row justify-content-start">
+          <div class="col-lg-12 text-white">
             <h1 style="font-size: 35px; font-family: courier; font-weight: bold">NOTEBOOKIE-MOCKUPS PACK</h1>
             <p style="font-size: 15px">
               Notebookie by Bulbfish is 12 craft notepad mockups for Adobe Photoshop. New, old, torn, closed, opened, etc. – everything is here. Every piece of this project was made from scratch and carefully assembled into detailed,
@@ -98,67 +81,47 @@
             <p><b>Requered Soft:</b> Adobe Photoshop</p>
             <h1 class="text-center mt-4">$10..99</h1>
             <div class="btn d-flex justify-content-center">
-              <a href="https://app.gumroad.com/blaxid" class="btn btn-lg btn-outline-light mb-2 w-50">Purchase</a>
+              <a href="https://app.gumroad.com/blaxid" class="btn btn-lg btn-outline-light mb-2" style="width: 200px; font-size: 30px">Purchase</a>
             </div>
           </div>
         </div>
       </div>
     </div>
+
     <!-- akhir product -->
 
     <!-- recent project -->
-    <div class="container-fluid py5" style="background-color: rgb(187, 187, 187)">
+    <div class="container-fluid py-3" style="background-color: rgb(187, 187, 187)">
       <div class="container">
         <h2 class="fw-bold text-black text-center mb-4">RECENT PROJECT</h2>
-
-        <div class="row">
-          <div class="col-sm-6 col-md-6 col-lg-3 hovered-card">
-            <div class="card text-center text-white mb-3" style="border-style: none">
-              <a href="/image/product/2.jpg" data-lightbox="roadtrip" data-title="Product 2"> <img src="image/product/2.jpg" class="card-img-top mb-1" /></a>
-              <h4 class="card-title mb-1 fw-bold">Product 2</h4>
-              <h4 class="card-title fw-bold">$10</h4>
-              <div class="btn d-flex justify-content-center">
-                <a href="detailproduct1.html" class="btn btn-sm btn-outline-light mb-2 w-50">view detail</a>
-              </div>
+        <div class="owl-carousel owl-theme">
+          <div class="card text-center" style="border-style: none; background-color: rgb(187, 187, 187)">
+            <a href="/image/product/Gambar2/Thumbnail.jpg" data-lightbox="roadtrip" data-title="Gambar 1"> <img src="image/product/Gambar2/Prev01.jpg" class="card-img-top mb-1" /></a>
+            <h4 class="card-title mb-1 fw-bold">Product 1</h4>
+            <h4 class="card-title fw-bold">$10</h4>
+            <div class="btn d-flex justify-content-center">
+              <a href="detailproduct1.html" class="btn btn-sm btn-outline-light mb-2 w-50">view detail</a>
             </div>
           </div>
-
-          <div class="col-sm-6 col-md-6 col-lg-3 hovered-card">
-            <div class="card text-center text-white mb-3" style="border-style: none">
-              <a href="/image/product/3.jpg" data-lightbox="roadtrip" data-title="Product 3"> <img src="image/product/3.jpg" class="card-img-top mb-1" /></a>
-              <h4 class="card-title mb-1 fw-bold">Product 3</h4>
-              <h4 class="card-title fw-bold">$10</h4>
-              <div class="btn d-flex justify-content-center">
-                <a href="detailproduct1.html" class="btn btn-sm btn-outline-light mb-2 w-50">view detail</a>
-              </div>
+          <div class="card text-center" style="border-style: none; background-color: rgb(187, 187, 187)">
+            <a href="/image/product/Gambar2/Thumbnail.jpg" data-lightbox="roadtrip" data-title="Gambar 1"> <img src="image/product/Gambar2/Prev01.jpg" class="card-img-top mb-1" /></a>
+            <h4 class="card-title mb-1 fw-bold">Product 1</h4>
+            <h4 class="card-title fw-bold">$10</h4>
+            <div class="btn d-flex justify-content-center">
+              <a href="detailproduct1.html" class="btn btn-sm btn-outline-light mb-2 w-50">view detail</a>
             </div>
           </div>
-
-          <div class="col-sm-6 col-md-6 col-lg-3 hovered-card">
-            <div class="card text-center text-white mb-3" style="border-style: none">
-              <a href="/image/product/4.jpg" data-lightbox="roadtrip" data-title="Product 4"> <img src="image/product/4.jpg" class="card-img-top mb-1" /></a>
-              <h4 class="card-title mb-1 fw-bold">Product 4</h4>
-              <h4 class="card-title fw-bold">$10</h4>
-              <div class="btn d-flex justify-content-center">
-                <a href="detailproduct1.html" class="btn btn-sm btn-outline-light mb-2 w-50">view detail</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-sm-6 col-md-6 col-lg-3 hovered-card">
-            <div class="card text-center text-white mb-3" style="border-style: none">
-              <a href="/image/product/5.jpg" data-lightbox="roadtrip" data-title="Product 5"> <img src="image/product/5.jpg" class="card-img-top mb-1" /></a>
-              <h4 class="card-title mb-1 fw-bold">Product 5</h4>
-              <h4 class="card-title fw-bold">$10</h4>
-              <div class="btn d-flex justify-content-center">
-                <a href="detailproduct1.html" class="btn btn-sm btn-outline-light mb-2 w-50">view detail</a>
-              </div>
+          <div class="card text-center" style="border-style: none; background-color: rgb(187, 187, 187)">
+            <a href="/image/product/Gambar2/Thumbnail.jpg" data-lightbox="roadtrip" data-title="Gambar 1"> <img src="image/product/Gambar2/Prev01.jpg" class="card-img-top mb-1" /></a>
+            <h4 class="card-title mb-1 fw-bold">Product 1</h4>
+            <h4 class="card-title fw-bold">$10</h4>
+            <div class="btn d-flex justify-content-center">
+              <a href="detailproduct1.html" class="btn btn-sm btn-outline-light mb-2 w-50">view detail</a>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- akhir recent project -->
 
     <!-- footer -->
     <footer class="footer pt-5 pb-4 justify-content-center main-color" style="color: rgb(0, 0, 0)">
@@ -181,7 +144,24 @@
     </footer>
     <!-- akhir footer -->
 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
     <script src="/bootstrap-5.1.0-dist/js/bootstrap.bundle.min.js"></script>
     <script src="/dist/js/lightbox-plus-jquery.min.js"></script>
+    <script>
+      $(".owl-carousel").owlCarousel({
+        loop: false,
+        margin: 10,
+        nav: true,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          500: {
+            items: 3,
+          },
+        },
+      });
+    </script>
   </body>
 </html>
