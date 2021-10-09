@@ -1,9 +1,6 @@
 body {
   background-color: rgb(0, 0, 0);
 }
-.body-about {
-  background-image: url(image/putih.jpg);
-}
 
 .navbar li a:hover {
   text-decoration-line: underline;
@@ -46,7 +43,7 @@ body {
 }
 
 .hovered-card:hover {
-  transform: scale(1.1);
+  transform: scale(1.04);
 }
 
 .card {
